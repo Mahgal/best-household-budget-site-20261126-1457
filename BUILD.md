@@ -32,4 +32,4 @@ Pages (hash routes, every page reachable by link from the header and footer): Ov
 
 ## Kit check (build session, no transcripts)
 
-KITCHECK_PENDING
+`node cli/makefun.mjs check --kit <kit> --repo <this repo> --json` → pass 4 (`competition_open`, `snapshot`, `license_osi`, `entrypoint`), **fail 1: `transcripts_present`** (the only permitted FAIL here — transcripts are bundled by the main chat), skip 15 (all transcript-gate checks with no session to read), submission-phase 5 (`repo_public`, `repo_owner`, `repo_created_after_open`, `commit_in_repo`, `duplicate_snapshot` — resolved when the main chat creates the public GitHub repo after the opening and pushes this commit).
