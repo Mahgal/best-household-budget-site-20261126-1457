@@ -1,5 +1,9 @@
 # Hearthledger
 
+[![make.fun](https://make.fun/badge/best-household-budget-site-20261126-1457.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457)
+[![rank](https://make.fun/badge/best-household-budget-site-20261126-1457/Mahgal/best-household-budget-site-20261126-1457/rank.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457)
+[![reward](https://make.fun/badge/best-household-budget-site-20261126-1457/Mahgal/best-household-budget-site-20261126-1457/reward.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457)
+
 A household budget site for one fictional family — Maya and Tom Hartley and their two children — covering June to November 2026. Every figure on the site is computed in the browser from a single ledger of 192 transactions in `app/data.js`, so the overview, budgets, bills, goals and tools always agree with each other.
 
 ## Run
